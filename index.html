@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Zhenchen (Antonio) Dong is a Ph.D. student at The Hong Kong Polytechnic University studying dynamic robotic manipulation with policies running on onboard edge chips.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Zhenchen (Antonio) Dong | 董振晨</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#research">Skip to research</a>
+  <main>
+    <header class="profile">
+      <div class="bio">
+        <h1>Zhenchen (Antonio) DONG <span lang="zh-CN">董振晨</span></h1>
+        <p>I am a Ph.D. student at The Hong Kong Polytechnic University, advised by <a href="https://www.polyu.edu.hk/me/people/academic-teaching-staff/yu-hongyu-prof/" target="_blank" rel="noopener">Prof. Hongyu Yu</a>. I received my bachelor's degree from the School of Mechatronics Engineering at Harbin Institute of Technology.</p>
+        <p>My research focuses on robotic manipulation in highly dynamic environments, with policies running directly on onboard edge chips. We are also working on some exciting space robotics projects.</p>
+        <p>My dream is <em>training large neural nets on massive amounts of robot data.</em></p>
+        <p>I was a starting player in the Floorball Asia Cup. Away from robotics, I am also a skilled mahjong and card-game player.</p>
+        <nav class="contact" aria-label="Contact and profiles">
+          <a href="mailto:dzc0823@gmail.com">Email</a><span aria-hidden="true">/</span>
+          <a href="assets/docs/Zhenchen_Dong_CV.pdf" target="_blank" rel="noopener">CV</a><span aria-hidden="true">/</span>
+          <a href="https://scholar.google.com/citations?user=7O2a8PoAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        </nav>
+      </div>
+      <div class="portrait-frame"><img class="portrait" src="assets/images/zhenchen.jpg" width="583" height="583" alt="Portrait of Zhenchen Dong"></div>
+    </header>
+
+    <section id="research" aria-labelledby="research-title">
+      <div class="section-heading"><h2 id="research-title">Research</h2><button id="motion-toggle" type="button" hidden>Pause animations</button></div>
+      <article class="paper">
+        <figure>
+          <video class="demo" muted loop playsinline controls preload="none" poster="assets/media/secd-still.jpg" width="960" height="540" aria-label="Two robot arms restore and fold an initially crumpled shirt using SECD">
+            <source src="assets/media/secd.mp4" type="video/mp4">
+            <a href="assets/media/secd.mp4">Watch the demonstration</a>
+          </video>
+          <figcaption>SECD · Crumpled-shirt folding · 4× speed</figcaption>
+        </figure>
+        <div class="paper-info">
+          <h3><a href="assets/docs/SECD.pdf">Shared Execution-Clock Drifting Policy for Dynamic Precision Manipulation</a></h3>
+          <p class="authors"><strong>Zhenchen Dong*</strong>, Qingran Wu*, Jinna Fu, Jiaming Wu, Fulin Chen, Hongyu Yu, Yide Liu</p>
+          <p class="venue">Preprint, 2026 <span class="contribution">(* equal contribution)</span></p>
+          <p class="paper-links"><a href="assets/docs/SECD.pdf">Paper</a><span aria-hidden="true">/</span><a href="https://secd-anonymous-ewn.pages.dev/" target="_blank" rel="noopener">Project</a></p>
+          <p class="summary">Jointly generates actions and their execution timing in one network evaluation, helping robots manipulate moving objects and complete tasks under time constraints.</p>
+        </div>
+      </article>
+      <article class="paper">
+        <figure>
+          <video class="demo" muted loop playsinline controls preload="none" poster="assets/media/hybridflow-still.jpg" width="960" height="540" aria-label="A robot intercepts and picks up a moving toy car using HybridFlow">
+            <source src="assets/media/hybridflow.mp4" type="video/mp4">
+            <a href="assets/media/hybridflow.mp4">Watch the demonstration</a>
+          </video>
+          <figcaption>HybridFlow · Moving-car interception · 1× speed</figcaption>
+        </figure>
+        <div class="paper-info">
+          <h3><a href="assets/docs/HybridFlow.pdf">HybridFlow: A 2-NFE Generative Policy for Real-Time Robotic Manipulation</a></h3>
+          <p class="authors"><strong>Zhenchen Dong*</strong>, Fulin Chen*, Jinna Fu, Jiaming Wu, Qingran Wu, Shengyuan Yu, Hongyu Yu, Yide Liu</p>
+          <p class="venue">Preprint, 2026 <span class="contribution">(* equal contribution)</span></p>
+          <p class="paper-links"><a href="assets/docs/HybridFlow.pdf">Paper</a><span aria-hidden="true">/</span><a href="https://arxiv.org/abs/2602.13718">arXiv</a><span aria-hidden="true">/</span><a href="https://hybridflow-anonymous.pages.dev/" target="_blank" rel="noopener">Project</a></p>
+          <p class="summary">Generates actions in just two network evaluations for fast responses to moving targets, including intercepting a moving toy car.</p>
+        </div>
+      </article>
+    </section>
+    <section class="details-section" id="experience" aria-labelledby="experience-title">
+      <h2 id="experience-title">Experience</h2>
+      <div class="experience-entry">
+        <h3>Anker Innovations <span class="role">· Intern</span></h3>
+        <p>Developed a vision-language-action (VLA) action expert and generative policies for few-step and one-step robotic action generation.</p>
+      </div>
+      <div class="experience-entry">
+        <h3>Galaxea AI <span class="role">· Intern</span></h3>
+        <p>Built a robot simulation and evaluation platform for manipulation and imitation learning, and calibrated and released R1-series URDF models for simulation.</p>
+      </div>
+    </section>
+
+    <section class="details-section" id="honors" aria-labelledby="honors-title">
+      <h2 id="honors-title">Selected Honors</h2>
+      <ul class="honors-list">
+        <li>Heilongjiang Provincial Merit Student <span lang="zh-CN">（黑龙江省三好学生）</span></li>
+        <li>BYD Scholarship</li>
+        <li>UNIQLO Scholarship</li>
+      </ul>
+    </section>
+    <footer>Layout inspired by <a href="https://jonbarron.info/">Jon Barron</a>.</footer>
+  </main>
+</body>
+</html>
